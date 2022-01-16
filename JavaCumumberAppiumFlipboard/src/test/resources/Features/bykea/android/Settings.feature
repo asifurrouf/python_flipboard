@@ -1,0 +1,11 @@
+Feature: Setting page visible
+
+  Background: user click on getStarted
+    Given click getStarted
+    Then click on Login Button
+    Then Tap on FaceBook Button
+
+  @initial
+  Scenario: Settings
+    Given click on Profile Button
+    Then click on Settings
